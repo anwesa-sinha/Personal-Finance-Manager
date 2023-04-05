@@ -1,0 +1,19 @@
+IDEAS FOR INNOVATIVE PROJECT -- PERSONAL FINANCE MANAGER
+
+
+1. 1st login page
+  
+    - Animated background related to finance or working of website
+
+2. Home page
+
+3. Dashboard
+    - doughnut or pie chart or bar graph to show expenditure
+
+4. Features
+    - Investment saving details
+    - Budget setter
+    - Alerts for maturity or budget exceeder
+    - daily debit and credit tracker
+    - Monthly, weekly and yearly exprnditure tracker
+    - Funds or budget planner
