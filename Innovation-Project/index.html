@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expanseo | Expense Tracker</title>
+    <link rel="stylesheet" href="front.css">
+</head>
+<body>
+    <div id="hero">
+        <div class="navbar">
+            <img src="logo.png" alt="Logo" class="logo">
+            <div class="user">
+                <button type="button">Explore</button>
+                <img class="avatar" src="avatar.jpg">
+            </div>
+        </div> 
+
+        <div class="container">
+            <div class="info">
+                <h1>EXPANSEO</h1>
+                <p>Your personal budget and expense tracker.</p>
+                <p>Be smart with your spending.</p>
+                <button class="btnLogin-popup" onclick="openForm()">Login</button>
+            </div>
+        </div>
+
+        <div class="wrapper" id="popup-form">
+            <span class="icon-close" onclick="closeForm()">&#10006;</span>
+
+            <div class="from-box">
+                <h2>Registration</h2>
+                <from action="#" class="modal-content" id="popup">
+                    <div class="input-box">
+                        <span class="icon">&#9786;</span>
+                        <input id="username" type="text" required>
+                        <label for="username">Username</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon">&#9993;</span>
+                        <input id="email" type="email" required>
+                        <label for="email">Email</label>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon">&#128274;</span>
+                        <input id="password" type="password" required>
+                        <label for="password">Password</label>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">I agree to the terms and conditions</label>
+                    </div>
+
+                    <a href="home.html"><button type="submit" class="btn">Register</button></a>
+
+                    <div class="login-register">
+                        <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+                    </div>
+
+                </from>
+            </div>
+        </div>       
+
+    </div>
+
+    <script src="front.js"></script>
+</body>
+</html>
