@@ -34,13 +34,13 @@ document.getElementById('form').addEventListener('submit', (e) => {
   setCookie("balance", Number(getCookie("credit")) - Number(getCookie("debit")), 356);
   myChart.data.datasets.data === Object.values({ 'debit': Number(getCookie("debit")), 'credit': Number(getCookie("credit")) });
   myChart.update();
-  console.log("cookies present = " + document.cookie)  
+  console.log("cookies present = " + document.cookie); 
   window.location.reload();  
 })
 
 // Add transactions to DOM list
 function addTransactionDOM() {
-  console.log("in add transactions")
+  console.log("In add transactions");
   
   for (let i = Number(getCookie('no_of_transactions')) -1; i >0; i--) 
   {
@@ -74,7 +74,7 @@ function setCookie(key, value, time) {
   d.setTime(d.getTime() + (time * 24 * 60 * 60 * 1000));
   let expires = "expires=" + d.toGMTString();
   document.cookie = key + "=" + value + ";" + expires + ";path=/";
-  console.log("in set cookie the cookie set is " + document.cookie)
+  console.log("in set cookie the cookie set is " + document.cookie);
 }
 // accessing a particular cookie by its key 
 function getCookie(key) {
