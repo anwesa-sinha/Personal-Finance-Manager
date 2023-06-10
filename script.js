@@ -66,7 +66,7 @@ function checkCookie(key, value) {
     //if not present, then new cookie being created
     setCookie(key, value, 365);
   }
-  console.log("in check cookie" + document.cookie)
+  console.log("in check cookie" + document.cookie);
 }
 //sets or updates a cookie
 function setCookie(key, value, time) {
@@ -91,7 +91,7 @@ function getCookie(key) {
       return char.substring(name.length, char.length);
     }
   }
-  console.log("in get cookie value of " + key + "is null")
+  console.log("in get cookie value of " + key + "is null");
   return "";
 }
 
